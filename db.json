@@ -10,8 +10,10 @@
     "posts": [
         { 
             "id": 1,
-            "title": "json-server",
-            "author": "typicode"
+            "title": "matrix",
+            "content": "Ce film est super !",
+            "date": "2023-11-02",
+            "userId": 1
         }
     ],
     "comments": [
