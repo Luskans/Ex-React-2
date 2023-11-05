@@ -1,27 +1,46 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "firstname": "John",
-            "lastname": "Doe",
-            "email": "test@gmail.com"
-        }
-    ],
-    "posts": [
-        { 
-            "id": 1,
-            "title": "matrix",
-            "content": "Ce film est super !",
-            "date": "2023-11-02",
-            "userId": 1
-        }
-    ],
-    "comments": [
-        {
-            "id": 1,
-            "body": "some comment",
-            "postId": 1
-        }
-    ],
-    "profile": { "name": "typicode" }
+  "users": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "test@gmail.com",
+      "password": "reblochon"
+    },
+    {
+      "firstname": "SDV",
+      "email": "dzefzef@fdeff.com",
+      "password": "aaaaaa",
+      "passwordConfirmation": "aaaaaa",
+      "checkbox": true,
+      "id": 2
+    },
+    {
+      "firstname": "John",
+      "email": "john@email.com",
+      "password": "bbbbbb",
+      "passwordConfirmation": "bbbbbb",
+      "checkbox": true,
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "matrix",
+      "content": "Ce film est super !",
+      "date": "2023-11-02",
+      "userId": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}

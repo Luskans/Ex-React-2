@@ -18,3 +18,11 @@
 .signin__button {
     align-self: flex-end;
 }
+
+.signin__error {
+    font-size: 0.75rem;
+    color: #d32f2f;
+    margin: 3px 14px 0 14px;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+}
